@@ -9,7 +9,7 @@ export const Main = (props) => {
             </div>
             <div className="row">
                 <button className="btn btn-primary"
-                        onClick={() => props.changeUsername('Anna')}>Change the Username
+                        onClick={() => props.changeUserName('Anna')}>Change the Username
                     </button>
             </div>
         </div>
