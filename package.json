@@ -2,13 +2,17 @@
   "name": "react-practice",
   "version": "0.1.0",
   "private": true,
+  "engine": {
+    "node": "11.3.0",
+    "npm": "6.4.1"
+  },
   "dependencies": {
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-redux": "^6.0.0",
     "react-scripts": "2.1.1",
     "redux": "^4.0.1"
-  },
+  }
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
