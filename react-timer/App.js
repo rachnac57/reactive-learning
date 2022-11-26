@@ -13,6 +13,11 @@ export default function App() {
   function stopTimer() {
     setStart(false);
   }
+  
+  function resetTimer() {
+    setCount(0);
+    setStart(false);
+  }
 
   const timer = () => {
     setCount(count + 1);
@@ -35,7 +40,7 @@ export default function App() {
       <br />
       <button onClick={() => startTimer()}>Start</button>
       <button onClick={() => stopTimer()}>Pause</button>
-      <button onClick={() => setCount(0)}>Reset</button>
+      <button onClick={() => resetTimer()}>Reset</button>
     </>
   );
 }
